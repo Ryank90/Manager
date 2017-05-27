@@ -1,0 +1,35 @@
+{
+    "name": "rk90/manager",
+    "description": "Manager provides manager functionality for API management.",
+    "license": "MIT",
+    "authors": [
+        {
+          "name": "Ryan Kerry",
+          "email": "rkerry1@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/contracts": "5.1.*|5.2.*|5.3.*|5.4.*",
+        "illuminate/support": "5.1.*|5.2.*|5.3.*|5.4.*"
+    },
+    "require-dev": {
+        "mockery/mockery": "^0.9.4",
+        "phpunit/phpunit": "^4.8|^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ServiceMap\\Manager\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ServiceMap\\Tests\\Manager\\": "tests/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
