@@ -1,5 +1,5 @@
 {
-    "name": "rk90/manager",
+    "name": "servicemap/manager",
     "description": "Manager provides manager functionality for API management.",
     "license": "MIT",
     "authors": [
@@ -26,10 +26,5 @@
         "psr-4": {
             "ServiceMap\\Tests\\Manager\\": "tests/"
         }
-    },
-    "config": {
-        "preferred-install": "dist"
-    },
-    "minimum-stability": "dev-master",
-    "prefer-stable": true
+    }
 }
